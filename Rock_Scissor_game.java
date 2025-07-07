@@ -1,0 +1,38 @@
+import java.util.Scanner;
+import java.util.Random;
+public class Rock_Scissor_game {
+    public static void main(String[] args) {
+        System.out.print(" Type 1 for Rock \n Type 2 for Paper \n Type 3 for Scissor \n\t Type here : ");
+        Scanner sc = new Scanner(System.in);
+        int player = sc.nextInt();
+        if(player == 1){
+            System.out.println("\n\t --> you select Rock <-- ");
+        }
+        if(player == 2){
+            System.out.println("\n\t --> you select paper <-- ");
+        }
+        if(player == 3){
+            System.out.println("\n\t --> you select scissor <-- ");
+        }
+        System.out.println("\n\t ---- Computer Turn ----");
+        Random ra = new Random();
+        int randomInt;
+        randomInt = ra.nextInt(1,4);
+        if(randomInt == 1){
+            System.out.println("\n\t --> Computer select Rock <-- ");
+        }
+        if(randomInt == 2){
+            System.out.println("\n\t --> Computer select paper <-- ");
+        }
+        if(randomInt == 3){
+            System.out.println("\n\t --> Computer select scissor <-- ");
+        }
+        if(player == randomInt){
+            System.out.println("Draw");
+        } else if ((player == 1 && randomInt == 3) || (player == 2 && randomInt ==1) || (player == 3 && randomInt == 2))  {
+            System.out.println("\n\t\t--> \"YOU WINS\" <-- ");
+        } else {
+            System.out.println("\n\t\t--> \"YOU LOSE\" <-- ");
+        }
+    }
+}
