@@ -45,3 +45,5 @@ public class Access_modifiers {
         System.out.println(mayank.get_Diam());
     }
 }
+
+//Using PRIVATE Access modifier
