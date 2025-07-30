@@ -1,0 +1,39 @@
+package Inheritance;
+class Base{
+    int x;
+
+    public int getX() {
+        System.out.println("I am in base value of x is :");
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+    public void printMe(){
+        System.out.println("I am a CONSTRUCTOR");
+    }
+}
+
+class Derived extends Base{
+    int y;
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+}
+public class Inheritance1 {
+    public static void main(String[] args) {
+        Derived mayank = new Derived();
+        mayank.setX(6);
+        mayank.setY(3);
+        System.out.println(mayank.getX());
+        System.out.println(mayank.getY());
+        mayank.printMe();
+
+    }
+}
