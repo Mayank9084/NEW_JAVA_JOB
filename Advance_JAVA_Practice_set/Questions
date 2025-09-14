@@ -1,0 +1,5 @@
+Question 1: Create an ArrayList and store the names of ten students inside it. Print it using a for each loop.
+Question 2: Use the Date class in Java to print the time in the following format : 21:47:02.
+Question 3: Repeat question number 2 using the Calendar class.
+Question 4: Repeat question number 2 using java.time API.
+Question 5: Create a Set in java. Try to store the duplicate values elements inside this set and verify that only one instance is stored.
