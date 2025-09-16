@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"My_Projects.GUI_Calcuator","c":"App","l":"App()","u":"%3Cinit%3E()"},{"p":"My_Projects.GUI_Calcuator","c":"App","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
+memberSearchIndex = [{"p":"<Unnamed>","c":"JAVA_Docs_Tags","l":"add(int, int)","u":"add(int,int)"},{"p":"<Unnamed>","c":"JAVA_Docs_Tags","l":"JAVA_Docs_Tags()","u":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"JAVA_Docs_Tags","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
